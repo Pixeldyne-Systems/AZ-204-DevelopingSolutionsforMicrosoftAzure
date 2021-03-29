@@ -19,6 +19,8 @@ The following lists Azure DevOps similarities and differences:
 - Builds seem much faster than Azure DevOps, small repos can CI in seconds
 - Costs approx. $5/developer
 
+Learn to build actions: https://github-actions-hero.now.sh/
+
 Build status
 
 [![.NET](https://github.com/Pixeldyne-Systems/AZ-204-DevelopingSolutionsforMicrosoftAzure/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Pixeldyne-Systems/AZ-204-DevelopingSolutionsforMicrosoftAzure/actions/workflows/dotnet.yml)
