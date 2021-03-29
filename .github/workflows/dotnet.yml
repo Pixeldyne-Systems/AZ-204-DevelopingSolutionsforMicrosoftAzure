@@ -10,6 +10,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      working-directory: Allfiles/Labs/04/Solution/AdventureWorks
 
     steps:
     - uses: actions/checkout@v2
@@ -18,12 +20,13 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Dir
-      run: ls -hla && cd Allfiles/Labs/04/Solution/AdventureWorks
+      run: ls -hla
     - name: Dir2
       run: ls -hla
+      working-directory: ${{env.working-directory}}
     
-    - name: Restore dependencies
-      run: dotnet restore
+#    - name: Restore dependencies
+#      run: dotnet restore
 #    - name: Build
 #      run: dotnet build --no-restore
 #    - name: Test
