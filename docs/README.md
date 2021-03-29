@@ -7,6 +7,7 @@ The following lists Azure DevOps similarities and differences:
 - Self-hosted YML task runners are supported 
 - Possible to setup release builds
 - Built packages can be used as artifacts
+- Provides warnings for dependencies where security vulnerabilities have been identified
 - Lacks visual pipeline builder, no variable groups
 - Costs approx. $5/developer
 
