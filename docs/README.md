@@ -1,5 +1,8 @@
 - Improved source browser
 - Kanban board with optional automation (moving tasks), integrated with issues or PRs
 - Git Powered Wikis and Websites
-- Self-hosted YML task runners are supported
+- YML tasks/actions (dotnet core, az cli, powershell, etc.)
+- Self-hosted YML task runners are supported 
+- Possible to setup release builds
 - Lacks visual pipeline builder, no variable groups
+- Costs approx. $5/developer
