@@ -9,6 +9,8 @@ The following lists Azure DevOps similarities and differences:
 - Built packages can be used as artifacts
 - Provides warnings for dependencies where security vulnerabilities have been identified
 - Run custom handlers (via webhooks) on events, e.g. new issue, new PR, discussion post, etc.
+- Can lock main brainch (enforce PRs)
+- Fork or duplicate repositories (if you want to make someone else's repo private, use duplicate)
 - Lacks visual pipeline builder, no variable groups
 - Costs approx. $5/developer
 
