@@ -10,6 +10,7 @@ The following lists Azure DevOps similarities and differences:
 - Self-hosted YML task runners are supported 
 - Possible to setup release builds
 - Built packages can be used as artifacts
+- Build code for iOS and use automatic testing with the provided iOS emulator
 - Provides warnings for dependencies where security vulnerabilities have been identified
 - Run custom handlers (via webhooks) on events, e.g. new issue, new PR, discussion post, etc.
 - Can lock main brainch (enforce PRs, enforce CI before PR merge)
