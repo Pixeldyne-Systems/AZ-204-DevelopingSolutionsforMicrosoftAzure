@@ -13,3 +13,5 @@ The following lists Azure DevOps similarities and differences:
 Build status
 
 [![.NET](https://github.com/Pixeldyne-Systems/AZ-204-DevelopingSolutionsforMicrosoftAzure/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Pixeldyne-Systems/AZ-204-DevelopingSolutionsforMicrosoftAzure/actions/workflows/dotnet.yml)
+
+Note: because this project was forked, it's public (to keep forked projects private, duplicate them instead)
