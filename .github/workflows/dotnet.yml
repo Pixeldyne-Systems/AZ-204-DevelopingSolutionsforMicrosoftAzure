@@ -18,10 +18,12 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Dir
+      run: ls -hla && cd Allfiles/Labs/04/Solution/AdventureWorks
+    - name: Dir2
       run: ls -hla
     
-#    - name: Restore dependencies
-#      run: dotnet restore
+    - name: Restore dependencies
+      run: dotnet restore
 #    - name: Build
 #      run: dotnet build --no-restore
 #    - name: Test
