@@ -24,15 +24,13 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
-    - name: Dir
+    - name: List repo contents
       run: ls -hla
-    - name: Dir2
-      run: ls -hla
-      working-directory: ${{env.working-directory}}
     
     - name: Restore dependencies
       run: dotnet restore
       working-directory: ${{env.working-directory}}
+
     - name: Build
       run: dotnet build --no-restore
       working-directory: ${{env.working-directory}}
