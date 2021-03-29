@@ -1,10 +1,15 @@
 name: .NET
-
+#env:
+#      working-directory: Allfiles/Labs/04/Solution/AdventureWorks
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+
+#defaults:
+#  run:
+#    working-directory: ./your_working_dir
 
 jobs:
   build:
@@ -28,7 +33,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       working-directory: ${{env.working-directory}}
-#    - name: Build
-#      run: dotnet build --no-restore
+    - name: Build
+      run: dotnet build --no-restore
+      working-directory: ${{env.working-directory}}
 #    - name: Test
 #      run: dotnet test --no-build --verbosity normal
