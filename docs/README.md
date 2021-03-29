@@ -9,3 +9,7 @@ The following lists Azure DevOps similarities and differences:
 - Built packages can be used as artifacts
 - Lacks visual pipeline builder, no variable groups
 - Costs approx. $5/developer
+
+Build status
+
+[![.NET](https://github.com/Pixeldyne-Systems/AZ-204-DevelopingSolutionsforMicrosoftAzure/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Pixeldyne-Systems/AZ-204-DevelopingSolutionsforMicrosoftAzure/actions/workflows/dotnet.yml)
