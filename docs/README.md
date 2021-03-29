@@ -2,6 +2,9 @@ The following lists Azure DevOps similarities and differences:
 
 - Improved source browser
 - Kanban board with optional automation (moving tasks), integrated with issues or PRs
+- No backlog, no scrum board, etc.
+- No concept of epics/stories/sprints, etc.
+- Can assign issues, not tasks.
 - Git Powered Wikis and Websites
 - YML tasks/actions (dotnet core, az cli, powershell, etc.)
 - Self-hosted YML task runners are supported 
